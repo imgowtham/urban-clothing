@@ -51,7 +51,6 @@ class SignUp extends React.Component {
                 <span>Sign up with your email and password</span>
                 <form onSubmit={this.handleSubmit}>
                     <FormInput
-                        key="1"
                         type="text"
                         name='displayName'
                         value={displayName}
@@ -59,7 +58,6 @@ class SignUp extends React.Component {
                         label='Display Name'
                         required/>
                     <FormInput
-                        key="2"
                         type="email"
                         name='email'
                         value={email}
@@ -67,7 +65,6 @@ class SignUp extends React.Component {
                         label='Email'
                         required/>
                     <FormInput
-                        key="3"
                         type="password"
                         name='password'
                         value={password}
@@ -75,7 +72,6 @@ class SignUp extends React.Component {
                         label='Password'
                         required/>
                     <FormInput
-                        key="4"
                         type="password"
                         name='confirmPassword'
                         value={confirmPassword}
