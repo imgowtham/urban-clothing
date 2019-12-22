@@ -2,7 +2,6 @@ import React from 'react';
 import {connect} from 'react-redux'
 import {auth, createUserProfileDocument} from './firebase/firebase.utils';
 import {setCurrentUser} from './redux/user/user.actions'
-
 import HomePage from './pages/homepage/homepage.component';
 import {Switch, Route, Redirect} from 'react-router-dom';
 import ShopPage from './pages/shop/shop.component';
