@@ -1,5 +1,5 @@
-const Collection_Data = [
-    {
+const Collection_Data = {
+    hats: {
         id: 1,
         title: 'Hats',
         routeName: 'hats',
@@ -51,7 +51,8 @@ const Collection_Data = [
                 price: 16
             }
         ]
-    }, {
+    },
+    sneakers: {
         id: 2,
         title: 'Sneakers',
         routeName: 'sneakers',
@@ -98,7 +99,8 @@ const Collection_Data = [
                 price: 200
             }
         ]
-    }, {
+    },
+    jackets: {
         id: 3,
         title: 'Jackets',
         routeName: 'jackets',
@@ -130,7 +132,8 @@ const Collection_Data = [
                 price: 185
             }
         ]
-    }, {
+    },
+    womens: {
         id: 4,
         title: 'Womens',
         routeName: 'womens',
@@ -172,7 +175,8 @@ const Collection_Data = [
                 price: 20
             }
         ]
-    }, {
+    },
+    mens: {
         id: 5,
         title: 'Mens',
         routeName: 'mens',
@@ -210,7 +214,6 @@ const Collection_Data = [
             }
         ]
     }
-]
-
+}
 
 export default Collection_Data
