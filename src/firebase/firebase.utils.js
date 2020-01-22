@@ -3,7 +3,7 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-    apiKey: "https://urban-clothing.herokuapp.com/",
+    apiKey: "AIzaSyDcwWZy5ovaiCG6GO2dOWBKN8W5M_d8yZc",
     authDomain: "urban-clothing-db.firebaseapp.com",
     databaseURL: "https://urban-clothing-db.firebaseio.com",
     projectId: "urban-clothing-db",
