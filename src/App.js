@@ -7,15 +7,13 @@ import {Switch, Route, Redirect} from 'react-router-dom';
 import ShopPage from './pages/shop/shop.component';
 import Header from './components/header/header.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
-import {selectCurrentUser } from './redux/user/user.selectors';
+import {selectCurrentUser} from './redux/user/user.selectors';
+
 import './App.css';
-import { createStructuredSelector } from 'reselect';
+import {createStructuredSelector} from 'reselect';
 import CheckoutPage from './pages/checkout/checkout.component';
 
 class App extends React.Component {
-
-    // constructor(props) {     super(props)     this.state = {         currentUser:
-    // null     } }
 
     unsubscribeFromAuth = null;
 
@@ -32,7 +30,9 @@ class App extends React.Component {
                     });
                 });
             }
-            setCurrentUser(userAuth)
+            setCurrentUser(userAuth);
+            // addCollectionAndDocuments('collections', collectionsArray.map(({title,
+            // items}) => ({title, items})));
         });
     }
 
