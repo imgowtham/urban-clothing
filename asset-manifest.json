@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/urban-clothing/static/css/main.6da6c986.chunk.css",
+    "main.js": "/urban-clothing/static/js/main.0673d0ad.chunk.js",
+    "main.js.map": "/urban-clothing/static/js/main.0673d0ad.chunk.js.map",
+    "runtime-main.js": "/urban-clothing/static/js/runtime-main.9663b271.js",
+    "runtime-main.js.map": "/urban-clothing/static/js/runtime-main.9663b271.js.map",
+    "static/js/2.6c5a334e.chunk.js": "/urban-clothing/static/js/2.6c5a334e.chunk.js",
+    "static/js/2.6c5a334e.chunk.js.map": "/urban-clothing/static/js/2.6c5a334e.chunk.js.map",
+    "index.html": "/urban-clothing/index.html",
+    "precache-manifest.7a852a6970fb98c428ae25b0f9516795.js": "/urban-clothing/precache-manifest.7a852a6970fb98c428ae25b0f9516795.js",
+    "service-worker.js": "/urban-clothing/service-worker.js",
+    "static/css/main.6da6c986.chunk.css.map": "/urban-clothing/static/css/main.6da6c986.chunk.css.map",
+    "static/js/2.6c5a334e.chunk.js.LICENSE.txt": "/urban-clothing/static/js/2.6c5a334e.chunk.js.LICENSE.txt",
+    "static/media/logo.e822b152.svg": "/urban-clothing/static/media/logo.e822b152.svg",
+    "static/media/shopping-bag.30f07071.svg": "/urban-clothing/static/media/shopping-bag.30f07071.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9663b271.js",
+    "static/js/2.6c5a334e.chunk.js",
+    "static/css/main.6da6c986.chunk.css",
+    "static/js/main.0673d0ad.chunk.js"
+  ]
+}
